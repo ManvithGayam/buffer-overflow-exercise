@@ -13,9 +13,8 @@ void grabline(char * s) {
   int c;
 
   while ((c = getchar()) != EOF)
-    *
-    s++ = c;
-  * s = '\0';
+    * s++ = c;
+    * s = '\0';
 }
 
 /*
